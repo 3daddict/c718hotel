@@ -8,6 +8,12 @@ class Room{
 	addOccupant( customer ){
 		this.occupant = customer;
 	}
+	checkIfOccupied(){
+		if(this.occupant)
+			return true;
+
+		return false;
+	}
 	removeOccupant(){
 
 	}
